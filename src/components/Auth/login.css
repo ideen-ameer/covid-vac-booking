@@ -1,0 +1,57 @@
+/* CSS for Login Page */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+  .login-form label {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bold;
+    font:italic ;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+  }
+  .toptext {
+    font-weight:"bold";
+    padding:10px;
+    font-size: xx-large;
+    color: antiquewhite;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(199, 194, 194);
+    border-radius: 15px;
+  }
+  
+  .login-form button[type="submit"],
+  .login-form button[type="button"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .signupbutton{
+    border-radius: 15px;
+  }
+  
+  .login-form button[type="submit"]:hover,
+  .login-form button[type="button"]:hover {
+    background-color: #000000;
+  }
+  
